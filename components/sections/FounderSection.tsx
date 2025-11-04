@@ -3,7 +3,7 @@ export default function FounderSection() {
 		<section className="w-full bg-[#F3F7F8] py-12 sm:py-16 lg:py-20">
 			<div className="max-w-[1100px] mx-auto px-4 sm:px-6">
 				<div className="text-center max-w-2xl mx-auto mb-10">
-					<h1 className="text-4xl font-bold mb-3"><span className="bg-gradient-to-r from-[#2209A7] to-[#03BDF7] bg-clip-text text-transparent">Founder</span></h1>
+					<h1 className="text-4xl font-bold mb-3"><span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Founder</span></h1>
 					<p className="text-[#525252]">The story, philosophy, and craft behind LaunchPad Labs.</p>
 				</div>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
@@ -21,8 +21,8 @@ export default function FounderSection() {
 							<p>Before LaunchPad Labs, I led teams shipping B2B and consumer software across fintech, AI, and developer tooling.</p>
 						</div>
 						<div className="mt-6 flex gap-3">
-							<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-[#9CC6FF] bg-[#1E71E5] px-6 h-[42px] text-white text-[15px] font-bold hover:bg-[#1560CC] transition-colors">Book A Call</a>
-							<a href="/our-work" className="inline-flex items-center justify-center rounded-[31px] border-2 border-[#9CC6FF] bg-white px-6 h-[42px] text-[#1F1F1F] text-[15px] font-semibold hover:bg-gray-50 transition-colors">View Work</a>
+							<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-primary px-6 h-[42px] text-white text-[15px] font-bold hover:bg-primary/90 transition-colors">Book A Call</a>
+							<a href="/our-work" className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-white px-6 h-[42px] text-[#1F1F1F] text-[15px] font-semibold hover:bg-gray-50 transition-colors">View Work</a>
 						</div>
 					</div>
 				</div>

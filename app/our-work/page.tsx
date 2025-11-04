@@ -15,7 +15,7 @@ export default function OurWorkPage() {
 return (
 	<main className="bg-[#F3F7F8] px-4 py-16">
 		<div className="mx-auto max-w-5xl">
-			<h1 className="text-4xl font-bold text-center bg-gradient-to-r from-[#2209A7] to-[#03BDF7] bg-clip-text text-transparent mb-10">Our Work</h1>
+			<h1 className="text-4xl font-bold text-center bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-10">Our Work</h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 				{items.map((c, i) => (
 					<CaseStudyCard key={i} title={c.title} description={c.description} tags={c.tags} link={c.link} />

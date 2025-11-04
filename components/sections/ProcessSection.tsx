@@ -13,9 +13,9 @@ export default function ProcessSection() {
 					<div className="inline-flex items-center justify-center px-4 py-1 rounded-[31px] border border-[#CEE3FF] bg-[#F2F2F2]">
 						<div className="inline-flex items-center justify-center rounded-full bg-white px-5 py-2 gap-3">
 							<div className="relative w-[18px] h-[18px]">
-								<div className="absolute inset-0 rounded-full bg-[#0764DA] opacity-20"></div>
-								<div className="absolute inset-[3px] rounded-full bg-[#0764DA] opacity-32"></div>
-								<div className="absolute inset-[5px] rounded-full bg-[#0764DA] opacity-66"></div>
+								<div className="absolute inset-0 rounded-full bg-primary opacity-20"></div>
+								<div className="absolute inset-[3px] rounded-full bg-primary opacity-32"></div>
+								<div className="absolute inset-[5px] rounded-full bg-primary opacity-66"></div>
 							</div>
 							<span className="text-black text-sm font-medium">Our Process</span>
 						</div>
@@ -28,7 +28,7 @@ export default function ProcessSection() {
 					{steps.map((s, i) => (
 						<div key={s.title} className="rounded-[20px] border border-[rgba(107,155,255,0.5)] bg-white/60 backdrop-blur-sm p-6">
 							<div className="flex items-center gap-3 mb-3">
-								<div className="w-8 h-8 rounded-full bg-[#B9E8FF] flex items-center justify-center font-bold text-[#0B5BD3]">{i + 1}</div>
+								<div className="w-8 h-8 rounded-full bg-secondary/30 flex items-center justify-center font-bold text-primary">{i + 1}</div>
 								<h3 className="text-[#3D3D3D] text-lg font-bold">{s.title}</h3>
 							</div>
 							<p className="text-[#505050] text-sm leading-6">{s.description}</p>

@@ -54,9 +54,9 @@ export default function FAQSection() {
 						<div className="inline-flex items-center justify-center px-4 py-1 rounded-[31px] border border-[#CEE3FF] bg-[#F2F2F2] mb-6">
 							<div className="inline-flex items-center justify-center rounded-full bg-white px-5 py-2 gap-3">
 								<div className="relative w-[18px] h-[18px]">
-									<div className="absolute inset-0 rounded-full bg-[#0764DA] opacity-20"></div>
-									<div className="absolute inset-[3px] rounded-full bg-[#0764DA] opacity-32"></div>
-									<div className="absolute inset-[5px] rounded-full bg-[#0764DA] opacity-66"></div>
+									<div className="absolute inset-0 rounded-full bg-primary opacity-20"></div>
+									<div className="absolute inset-[3px] rounded-full bg-primary opacity-32"></div>
+									<div className="absolute inset-[5px] rounded-full bg-primary opacity-66"></div>
 								</div>
 								<span className="text-black text-[14px] font-medium">FAQ</span>
 							</div>
@@ -83,7 +83,7 @@ export default function FAQSection() {
 							<p className="text-[#8C8C8C] text-[18px] font-bold mb-2">Still not sure?</p>
 							<h3 className="text-black text-[20px] font-bold mb-4">Book a free call.</h3>
 							<p className="text-black text-[14px] font-normal leading-[20px] mb-6">Learn more about how we work and how we can help you and your startup.</p>
-							<a href="#book" className="inline-flex items-center justify-center gap-2 rounded-[31px] border-2 border-[#9CC6FF] bg-[#1E71E5] shadow-[0_46px_13px_0_rgba(30,113,229,0.00),0_30px_12px_0_rgba(30,113,229,0.02),0_17px_10px_0_rgba(30,113,229,0.08),0_7px_7px_0_rgba(30,113,229,0.13),0_2px_4px_0_rgba(30,113,229,0.15)] px-8 h-[48px] text-white text-[15px] font-bold hover:bg-[#1560CC] transition-colors">Book A Call</a>
+							<a href="#book" className="inline-flex items-center justify-center gap-2 rounded-[31px] border-2 border-secondary/60 bg-primary shadow-[0_46px_13px_0_rgba(30,113,229,0.00),0_30px_12px_0_rgba(30,113,229,0.02),0_17px_10px_0_rgba(30,113,229,0.08),0_7px_7px_0_rgba(30,113,229,0.13),0_2px_4px_0_rgba(30,113,229,0.15)] px-8 h-[48px] text-white text-[15px] font-bold hover:bg-primary/90 transition-colors">Book A Call</a>
 						</div>
 					</div>
 				</div>

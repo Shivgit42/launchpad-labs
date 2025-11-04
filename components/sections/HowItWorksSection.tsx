@@ -21,9 +21,9 @@ export default function HowItWorksSection() {
 					<div className="inline-flex items-center justify-center px-4 py-1 rounded-[31px] border border-[#CEE3FF] bg-[#F2F2F2]">
 						<div className="inline-flex items-center justify-center rounded-full bg-white px-5 py-2 gap-3">
 							<div className="relative w-[18px] h-[18px]">
-								<div className="absolute inset-0 rounded-full bg-[#0764DA] opacity-20"></div>
-								<div className="absolute inset-[3px] rounded-full bg-[#0764DA] opacity-32"></div>
-								<div className="absolute inset-[5px] rounded-full bg-[#0764DA] opacity-66"></div>
+								<div className="absolute inset-0 rounded-full bg-primary opacity-20"></div>
+								<div className="absolute inset-[3px] rounded-full bg-primary opacity-32"></div>
+								<div className="absolute inset-[5px] rounded-full bg-primary opacity-66"></div>
 							</div>
 							<span className="text-black text-sm font-medium">How It Works</span>
 						</div>
@@ -43,7 +43,7 @@ export default function HowItWorksSection() {
 										<div className="order-1 md:order-none" />
 										<div className="rounded-[20px] border border-[rgba(107,155,255,0.5)] bg-white p-6 shadow-[0_2px_21px_0_rgba(0,0,0,0.06)]">
 											<div className="flex items-center gap-3 mb-2">
-												<div className="w-8 h-8 rounded-full bg-[#B9E8FF] flex items-center justify-center font-bold text-[#0B5BD3]">{i + 1}</div>
+												<div className="w-8 h-8 rounded-full bg-secondary/30 flex items-center justify-center font-bold text-primary">{i + 1}</div>
 												<h3 className="text-[#1F1F1F] text-lg font-bold">{p.title}</h3>
 											</div>
 											<p className="text-[#505050] text-sm leading-6">{p.desc}</p>
@@ -53,7 +53,7 @@ export default function HowItWorksSection() {
 									<>
 										<div className="rounded-[20px] border border-[rgba(107,155,255,0.5)] bg-white p-6 shadow-[0_2px_21px_0_rgba(0,0,0,0.06)]">
 											<div className="flex items-center gap-3 mb-2">
-												<div className="w-8 h-8 rounded-full bg-[#B9E8FF] flex items-center justify-center font-bold text-[#0B5BD3]">{i + 1}</div>
+												<div className="w-8 h-8 rounded-full bg-secondary/30 flex items-center justify-center font-bold text-primary">{i + 1}</div>
 												<h3 className="text-[#1F1F1F] text-lg font-bold">{p.title}</h3>
 											</div>
 											<p className="text-[#505050] text-sm leading-6">{p.desc}</p>
@@ -67,7 +67,7 @@ export default function HowItWorksSection() {
 				</div>
 
 				<div className="mt-10 flex justify-center">
-					<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-[#9CC6FF] bg-gradient-to-b from-[#0F93FF] to-[#003BB9] px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform">Book My Free MVP Call</a>
+					<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-gradient-to-b from-primary to-primary px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform">Book My Free MVP Call</a>
 				</div>
 			</div>
 		</section>

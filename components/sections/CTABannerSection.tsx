@@ -8,7 +8,7 @@ export default function CTABannerSection() {
 				<div className="text-center max-w-[717px] mx-auto">
 					<h2 className="text-[#202020] text-2xl sm:text-[28px] font-bold leading-[40px] mb-4">Ready to launch your next big idea?</h2>
 					<p className="text-[#525252] text-base font-medium leading-[31px] mb-8">Book a consultation call and let's turn your vision into reality</p>
-					<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-[#9CC6FF] bg-gradient-to-b from-[#0F93FF] to-[#003BB9] shadow-[0_46px_13px_0_rgba(30,113,229,0.00),0_30px_12px_0_rgba(30,113,229,0.02),0_17px_10px_0_rgba(30,113,229,0.08),0_7px_7px_0_rgba(30,113,229,0.13),0_2px_4px_0_rgba(30,113,229,0.15)] px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform">Book My Free MVP Call</a>
+					<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-gradient-to-b from-primary to-primary shadow-[0_46px_13px_0_rgba(30,113,229,0.00),0_30px_12px_0_rgba(30,113,229,0.02),0_17px_10px_0_rgba(30,113,229,0.08),0_7px_7px_0_rgba(30,113,229,0.13),0_2px_4px_0_rgba(30,113,229,0.15)] px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform">Book My Free MVP Call</a>
 				</div>
 			</div>
 		</section>

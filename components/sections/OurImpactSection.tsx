@@ -12,9 +12,9 @@ export default function OurImpactSection() {
 					<div className="inline-flex items-center justify-center px-4 py-1 rounded-[31px] border border-[#CEE3FF] bg-[#F2F2F2]">
 						<div className="inline-flex items-center justify-center rounded-full bg-white px-5 py-2 gap-3">
 							<div className="relative w-[18px] h-[18px]">
-								<div className="absolute inset-0 rounded-full bg-[#0764DA] opacity-20"></div>
-								<div className="absolute inset-[3px] rounded-full bg-[#0764DA] opacity-32"></div>
-								<div className="absolute inset-[5px] rounded-full bg-[#0764DA] opacity-66"></div>
+								<div className="absolute inset-0 rounded-full bg-primary opacity-20"></div>
+								<div className="absolute inset-[3px] rounded-full bg-primary opacity-32"></div>
+								<div className="absolute inset-[5px] rounded-full bg-primary opacity-66"></div>
 							</div>
 							<span className="text-black text-sm font-medium">Our Impact</span>
 						</div>
@@ -25,8 +25,8 @@ export default function OurImpactSection() {
 
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-9 max-w-[966px] mx-auto">
 					{stats.map((stat, index) => (
-						<div key={index} className="flex flex-col items-center justify-center p-8 sm:p-12 rounded-[23px] border-[5px] border-[#B9E8FF] bg-gradient-to-b from-white via-[#E6F3FF] to-white">
-							<div className="text-[#0766DB] text-[48px] sm:text-[58px] font-bold leading-none mb-3">{stat.value}</div>
+						<div key={index} className="flex flex-col items-center justify-center p-8 sm:p-12 rounded-[23px] border-[5px] border-secondary/30 bg-gradient-to-b from-white via-secondary/10 to-white">
+							<div className="text-primary text-[48px] sm:text-[58px] font-bold leading-none mb-3">{stat.value}</div>
 							<p className="text-center text-[#505050] text-base font-medium leading-7">
 								<span className="text-[#1B1B1B] font-bold">{stat.label}</span>
 								{stat.description}
