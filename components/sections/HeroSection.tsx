@@ -86,8 +86,8 @@ export default function HeroSection() {
 						</div>
 
 						{/* Trusted By Section */}
-						<div className="flex items-center justify-center mt-16 sm:mt-24 lg:mt-32">
-							<p className="text-[#555] text-sm sm:text-[15px] font-bold">Trusted by Founders from</p>
+						<div className="flex items-center justify-center mt-16 sm:mt-24 lg:mt-[350px]">
+							<p className="text-[#555] text-sm sm:text-[15px] font-bold absolute bottom-0 left-0 right-0">Trusted by Founders from</p>
 						</div>
 					</div>
 				</div>
