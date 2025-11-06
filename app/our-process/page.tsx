@@ -1,4 +1,4 @@
-import ProcessSection from "../../components/sections/ProcessSection";
+import LaunchPadProcessSection from "../../components/sections/LaunchPadProcessSection";
 
 export const metadata = {
 	title: "Our Process",
@@ -8,7 +8,7 @@ export const metadata = {
 export default function OurProcessPage() {
 	return (
 		<main className="flex w-full flex-col">
-			<ProcessSection />
+			<LaunchPadProcessSection />
 		</main>
 	);
 }
