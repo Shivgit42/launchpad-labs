@@ -19,6 +19,8 @@ export default function Home() {
 			<OurWorkSection />
 			<WhyLaunchPadSection />
 			<ApproachComparisonSection />
+			{/* Anchor for how-it-works for smooth scroll */}
+			<div id="how-it-works" />
 			<LaunchPadProcessSection />
 			<TestimonialSection />
 			{/* <FAQSection /> */}

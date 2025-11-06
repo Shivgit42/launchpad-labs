@@ -44,8 +44,8 @@ export default function OurWorkSection() {
 		]
 	};
 
-	return (
-		<section className="w-full bg-[#F3F7F8] py-12 sm:py-16 lg:py-20 overflow-hidden">
+return (
+		<section id="our-work" className="w-full bg-[#F3F7F8] py-12 sm:py-16 lg:py-20 overflow-hidden">
 			<div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-20">
 				<div className="flex justify-center mb-6">
 					<div className="inline-flex items-center justify-center rounded-[31px] border border-[#CEE3FF] bg-[#F2F2F2]">

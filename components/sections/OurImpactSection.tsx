@@ -32,7 +32,7 @@ export default function OurImpactSection() {
 					{stats.map((stat, index) => (
 						<div
 							key={index}
-							className="flex flex-col items-center justify-center p-8 sm:p-12 rounded-[23px] border-[5px] border-secondary/30 bg-gradient-to-b from-white via-secondary/10 to-white shadow-[0_2px_21px_0_rgba(0,0,0,0.10)] hover:shadow-[0_4px_25px_0_rgba(0,0,0,0.15)] transition-shadow"
+							className="flex flex-col items-center justify-center p-8 sm:p-12 rounded-[23px] border-[5px] border-secondary/30 bg-linear-to-b from-white via-secondary/10 to-white shadow-[0_2px_21px_0_rgba(0,0,0,0.10)] hover:shadow-[0_4px_25px_0_rgba(0,0,0,0.15)] transition-shadow"
 						>
 							<div className="text-primary text-[48px] sm:text-[58px] font-bold leading-none mb-3">
 								{stat.value}

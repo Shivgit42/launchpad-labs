@@ -73,7 +73,7 @@ export default function MVPPackageSection() {
 							className="rounded-2xl bg-white border border-white shadow-[0_2px_21px_0_rgba(0,0,0,0.10)] hover:shadow-[0_4px_25px_0_rgba(0,0,0,0.15)] transition-shadow p-6"
 						>
 							<div className="flex items-start gap-4">
-								<div className="flex-shrink-0 mt-1">
+								<div className="shrink-0 mt-1">
 									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<circle cx="12" cy="12" r="10" stroke="#0764DA" strokeWidth="2" fill="#0764DA" fillOpacity="0.1"/>
 										<path d="M8 12L11 15L16 9" stroke="#0764DA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -96,7 +96,7 @@ export default function MVPPackageSection() {
 				<div className="mt-12 text-center">
 					<a 
 						href="#book" 
-						className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-gradient-to-b from-primary to-primary shadow-[0_46px_13px_0_rgba(30,113,229,0.00),0_30px_12px_0_rgba(30,113,229,0.02),0_17px_10px_0_rgba(30,113,229,0.08),0_7px_7px_0_rgba(30,113,229,0.13),0_2px_4px_0_rgba(30,113,229,0.15)] px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform"
+						className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-linear-to-b from-primary to-primary shadow-[0_46px_13px_0_rgba(30,113,229,0.00),0_30px_12px_0_rgba(30,113,229,0.02),0_17px_10px_0_rgba(30,113,229,0.08),0_7px_7px_0_rgba(30,113,229,0.13),0_2px_4px_0_rgba(30,113,229,0.15)] px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform"
 					>
 						Book My Free MVP Call
 					</a>

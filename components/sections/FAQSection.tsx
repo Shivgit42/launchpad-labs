@@ -15,11 +15,11 @@ function FAQItem({ question, answer, isOpen, onToggle }: FAQItemProps) {
 			<button onClick={onToggle} className="w-full flex items-center justify-between px-[25px] py-[26px] text-left">
 				<span className="text-[#404040] text-[16px] font-bold leading-[31px] pr-4">{question}</span>
 				{isOpen ? (
-					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="flex-shrink-0">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="shrink-0">
 						<path fillRule="evenodd" clipRule="evenodd" d="M3.54166 10C3.54166 9.83424 3.6075 9.67527 3.72471 9.55806C3.84192 9.44085 4.0009 9.375 4.16666 9.375H15.8333C15.9991 9.375 16.1581 9.44085 16.2753 9.55806C16.3925 9.67527 16.4583 9.83424 16.4583 10C16.4583 10.1658 16.3925 10.3247 16.2753 10.4419C16.1581 10.5592 15.9991 10.625 15.8333 10.625H4.16666C4.0009 10.625 3.84192 10.5592 3.72471 10.4419C3.6075 10.3247 3.54166 10.1658 3.54166 10Z" fill="black"/>
 					</svg>
 				) : (
-					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="flex-shrink-0">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="shrink-0">
 						<path d="M10 15.625V4.375M4.375 10H15.625" stroke="black" strokeLinecap="round" strokeLinejoin="round"/>
 					</svg>
 				)}

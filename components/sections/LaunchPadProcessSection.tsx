@@ -34,8 +34,8 @@ export default function LaunchPadProcessSection() {
 		}
 	];
 
-	return (
-		<section className="w-full bg-white py-12 sm:py-16 lg:py-20">
+return (
+		<section id="process" className="w-full bg-white py-12 sm:py-16 lg:py-20">
 			<div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-20">
 				{/* Section Badge */}
 				<div className="flex justify-center mb-6">

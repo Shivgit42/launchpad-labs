@@ -34,13 +34,13 @@ export default function HowItWorksSection() {
 				<p className="text-center text-[#525252] max-w-2xl mx-auto mb-10">A focused, sprint‑based approach that keeps momentum high and decisions clear.</p>
 
 				<div className="relative mx-auto max-w-4xl">
-					<div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-[#CEE3FF] to-transparent hidden md:block" />
+					<div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-[2px] bg-linear-to-b from-[#CEE3FF] to-transparent hidden md:block" />
 					<div className="space-y-6">
 						{phases.map((p, i) => (
 							<div key={p.title} className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
 								{(i % 2 === 0) ? (
 									<>
-										<div className="order-1 md:order-none" />
+										<div className="order-1 md:order-0" />
 										<div className="rounded-[20px] border border-[rgba(107,155,255,0.5)] bg-white p-6 shadow-[0_2px_21px_0_rgba(0,0,0,0.06)]">
 											<div className="flex items-center gap-3 mb-2">
 												<div className="w-8 h-8 rounded-full bg-secondary/30 flex items-center justify-center font-bold text-primary">{i + 1}</div>
@@ -67,7 +67,7 @@ export default function HowItWorksSection() {
 				</div>
 
 				<div className="mt-10 flex justify-center">
-					<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-gradient-to-b from-primary to-primary px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform">Book My Free MVP Call</a>
+					<a href="#book" className="inline-flex items-center justify-center rounded-[31px] border-2 border-secondary/60 bg-linear-to-b from-primary to-primary px-8 h-12 text-white text-base font-bold hover:scale-105 transition-transform">Book My Free MVP Call</a>
 				</div>
 			</div>
 		</section>

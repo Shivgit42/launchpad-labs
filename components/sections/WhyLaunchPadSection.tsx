@@ -53,8 +53,7 @@ export default function WhyLaunchPadSection() {
 							key={index}
 							className="rounded-2xl bg-white border border-white shadow-[0_2px_21px_0_rgba(0,0,0,0.10)] hover:shadow-[0_4px_25px_0_rgba(0,0,0,0.15)] transition-shadow overflow-hidden"
 						>
-							{/* Image */}
-							<div className="w-full h-[200px] sm:h-[240px] lg:h-[280px] relative bg-gradient-to-br from-white to-gray-50 p-4">
+							<div className="w-full h-[200px] sm:h-[240px] lg:h-[280px] relative bg-linear-to-br from-white to-gray-50 p-4">
 								<Image
 									src={feature.image}
 									alt={feature.title}
